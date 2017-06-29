@@ -54,18 +54,18 @@ function changelanguage(url){
 <div id="wrapper">
 <div class="header">
   <div class="hbtn">
-  	<h2>
-        <select onchange="changelanguage(this.value)" id="language">
+  	<h2 style="width: 80px;">
+        <!-- <select onchange="changelanguage(this.value)" id="language">
         <?php 		
-		$langList     = explode('@',QD_lang);
-		$langNameList = explode('@',QD_lang_name);
-		for($i=0;$i<count($langList)-1;$i++)
-		{
-			if(!empty($langList[$i])){?>
+        		$langList     = explode('@',QD_lang);
+        		$langNameList = explode('@',QD_lang_name);
+        		for($i=0;$i<count($langList)-1;$i++)
+        		{
+        			if(!empty($langList[$i])){?>
         <option value="<?=$langList[$i]?>" <?php echo $request['l']==$langList[$i]?'selected="selected"':'';?>><?=$langNameList[$i]?>网站</option>
         <?php }
-		}?> 
-        </select>
+        		}?> 
+        </select> -->
     </h2>
     <h2><a href="./../" class="preview" target="_blank">预览网站</a></h2>
     <?php if($_SESSION[TB_PREFIX.'admin_roleId']>8){ ?>
@@ -73,19 +73,19 @@ function changelanguage(url){
     <?php } ?>
     <div> <a href="./index.php?m=system&s=userinfo&a=edit&cid=<?php echo $_SESSION[TB_PREFIX.'admin_userID'] ?>">个人资料</a> <a href="login.php?act=logout">退出</a> </div>
   </div>
-  <a href="./"><div class="logo"><h1><?php echo SITENAME; ?> </h1></div></a>	
+  <a href="./"><div class="logo"><h1><?php echo SITENAME; ?>管理后台 </h1></div></a>	
 </div>
 <div class="navin">
 <?php if($_SESSION[TB_PREFIX.'admin_roleId']>8){ ?>
   <ul>
     <li><h3><a href='./index.php?m=system&s=managechannel' title='添加、修改网站导航栏目菜单和栏目属性' id='m1'>设置导航菜单</a></h3><div class="szdhcd"><h4><b></b></h4></div></li>
     <li><h3><a href='./index.php?m=system&s=options' title='添加、修改网站功能各项参数配制' id='m2'>站点设置</a></h3><div class="zdsz"><h4><b></b></h4></div></li>
-    <li><h3><a href='./index.php?m=system&s=changeskin' title='添加、修改、配制网站模板，修管理首页标签' id='m3'>模板管理</a></h3><div class="mbgl"><h4><b></b></h4></div></li>
-    <li><h3><a href='./index.php?m=system&s=managemodel' title='查看模块属性，添加、删除模块儿' id='m4'>模块管理</a></h3><div class="mkgl"><h4><b></b></h4></div></li>
+    <!-- <li><h3><a href='./index.php?m=system&s=changeskin' title='添加、修改、配制网站模板，修管理首页标签' id='m3'>模板管理</a></h3><div class="mbgl"><h4><b></b></h4></div></li> -->
+    <!-- <li><h3><a href='./index.php?m=system&s=managemodel' title='查看模块属性，添加、删除模块儿' id='m4'>模块管理</a></h3><div class="mkgl"><h4><b></b></h4></div></li> -->
     <li><h3><a href='./index.php?m=system&s=userinfo' title='管理网站各类用户以及分配权限' id='m5'>用户管理</a></h3><div class="yhgl"><h4><b></b></h4></div></li>
     <li><h3><a href='./index.php?m=system&s=flashoptions' title='添加、修改、删除网站广告功能' id='m6'>广告管理</a></h3><div class="gggl"><h4><b></b></h4></div></li>
-    <li><h3><a href='./index.php?m=system&s=bakup' title='数据库备份、优化、管理' id='m7'>数据库管理</a></h3><div class="sjkgl"><h4><b></b></h4></div></li>
-    <li><h3><a href='./index.php?m=system&s=manageresource' title='用户Upload上传目录资源管理' id='m9'>资源管理</a></h3><div class="zygl"><h4><b></b></h4></div></li>
+    <!-- <li><h3><a href='./index.php?m=system&s=bakup' title='数据库备份、优化、管理' id='m7'>数据库管理</a></h3><div class="sjkgl"><h4><b></b></h4></div></li>
+    <li><h3><a href='./index.php?m=system&s=manageresource' title='用户Upload上传目录资源管理' id='m9'>资源管理</a></h3><div class="zygl"><h4><b></b></h4></div></li> -->
   </ul>
 <?php }
 else if($_SESSION[TB_PREFIX.'admin_roleId']>6 && $_SESSION[TB_PREFIX.'admin_roleId']<9){
@@ -95,7 +95,7 @@ else if($_SESSION[TB_PREFIX.'admin_roleId']>6 && $_SESSION[TB_PREFIX.'admin_role
 	echo "<li><h3><a href='./index.php?m=system&s=flashoptions' title='添加、修改、删除网站广告功能' id='m2'>系统广告管理</a></h3><div class='gggl'><h4><b></b></h4></div></li>";
 	echo '</ul>';
  }?> 
-  <div id="admini_help"></div>
+  <!-- <div id="admini_help"></div>
   <script type="text/javascript">
   var help1 = '<a href="javascript:;" onclick="SetCookie(\'admini_help\',1);cookie=1;hideTip();">【关闭新手提示】</a>';
   var help2 = '<a href="javascript:;" onclick="SetCookie(\'admini_help\',0);cookie=0;openTip();">【开启新手提示】</a>';
@@ -107,6 +107,6 @@ else if($_SESSION[TB_PREFIX.'admin_roleId']>6 && $_SESSION[TB_PREFIX.'admin_role
   {
     $('#admini_help').html(help2);
   }
-  </script>
+  </script> -->
 </div>
 <div id="container">

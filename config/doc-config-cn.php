@@ -11,9 +11,9 @@ define('WEBSIZE','500');
 define('WEBSIZECOUNTS','53');
 define('WEBURL','');    //PC 域名
 define('MOBILEURL','');  //移动域名
-define('SITENAME','金华通木工机械');
+define('SITENAME','青岛金华通机械有限公司');
 define('SITEKEYWORDS','青岛金华通机械有限公司,金华通木工机械,金华工机械,木工机械,封边机,裁板锯,砂光机,排钻');
-define('SITESUMMARY','青岛金华通机械有限公司，坐落机械名镇王台镇，主要经营木工机械、封边机、裁板锯、砂光机、排钻，电话86-0532-13608984506，一流的质量有竞争力的价格是您的不二选择！');
+define('SITESUMMARY','青岛金华通机械有限公司，坐落机械名镇王台镇，主要经营木工机械、封边机、裁板锯、砂光机、排钻，全国统一订购电话13573296636，一流的质量有竞争力的价格是您的不二选择！');
 define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
@@ -23,7 +23,7 @@ define('URLREWRITE',true);
 define('CACHETIME','0');
 define('DOCPING',false);
 //评论审核
-define('COMMENTAUDITING',false);
+define('COMMENTAUDITING',true);
 //留言审核
 define('GUESTBOOKAUDITING',true);
 
@@ -40,7 +40,7 @@ $fileIndex 	= 'index.html';
 $fileCommon = 'common.html';
 //水印图片
 define('ISWATER',true);
-define('WATERIMGS','/inc/img/system/doccms.png');
+define('WATERIMGS','/upload/201706/20170629215737998.png');
 //缩略图背景颜色设置
 define('paint_bgcolor','0xffffff');
 //分页样式

@@ -133,7 +133,7 @@ if($_GET['act']=='showphoto')
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>您正在登录稻壳网站后台管理系统</title>
+<title>您正在登录金华通后台管理系统</title>
 <style>
 html,body{ height:100%; overflow:hidden;}
 body{font-size:12px;width:100%;background:#000 url(images/loginbg.jpg) no-repeat center center;}
@@ -197,7 +197,7 @@ $(document).ready(function(){
 		if($(this).val()==""){
 			$(".error").text("请输入用户名！");
 		}
-		else{
+		/*else{
 			$.ajax({
 			type:"GET",
 			url:"login.php?act=showphoto",
@@ -218,7 +218,7 @@ $(document).ready(function(){
 				error:function(){	
 				}
 			});	
-		}
+		}*/
 	});
 	$("#photo").click(function(){
 		$(".avat").fadeOut(400);
@@ -299,8 +299,8 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-<div class="bottom pngFix">
+<!-- <div class="bottom pngFix">
 	<div class="footer"></div>
-</div>
+</div> -->
 </body>
 </html>

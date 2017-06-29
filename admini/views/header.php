@@ -84,7 +84,7 @@ function changelanguage(url){
             <a href="login.php?act=logout">退出</a>
         </div>
     </div>
-	<div class="logo"><h1><?php echo SITENAME; ?> </h1></div>
+	<div class="logo"><h1><?php echo SITENAME; ?>管理后台 </h1></div>
 </div>
 	<div class="nav">
 		<?php

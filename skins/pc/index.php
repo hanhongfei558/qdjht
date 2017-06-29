@@ -132,14 +132,9 @@ jQuery(document).ready(function(){
           <!--.back-top-->
         </div>
         <!--.center-->
-        <p style="text-align:center; margin:20px 0 0 0">© 2012 Power by
-          <a title="稻壳Cms官方网站" href="http://www.doccms.com">DocCms X.Team</a>
-          ,
-          <a title="稻壳网" href="http://www.doooc.com">DoooC.com</a>
-          . Address: China Henan .- Zhengzhou   /
-          <a title="稻壳Cms官方论坛" href="http://www.doccms.net">Terms of Service</a>
-          -
-          <a title="法律声明" href="http://www.doccms.com/PurchaseAgreement/">Privacy Policy</a>
+        <p style="text-align:center; margin:20px 0 0 0">青岛金华通机械有限公司&nbsp;&nbsp;&nbsp;&nbsp;Copyright © <?php echo date('Y')?> 
+          <a title="青岛金华通机械有限公司" href="/">qdjinhuatong.com</a>
+          &nbsp;&nbsp;&nbsp;鲁ICP备17013361号-1
           <br>
           <spam></spam>
         </p>

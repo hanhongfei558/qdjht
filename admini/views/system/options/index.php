@@ -127,7 +127,7 @@ for(i=0;i<mli.length;i++){
                   <tr>
                     <td>图片水印上传：</td>
                     <td colspan="2"><input type="file" name="waterimgs" id="waterimgs" >
-                      &nbsp;<img src="<?php echo WATERIMGS?>"  align="absmiddle" width="140" height="50" <?php echo !WATERIMGS?'style="display:none;"':''?>/></td>
+                      &nbsp;<img src="<?php echo WATERIMGS?>" style="background: #b3b3b3;"  align="absmiddle" width="437" height="40" <?php echo !WATERIMGS?'style="display:none;"':''?>/></td>
                   </tr>
                   <tr>
                     <td>上传图片缩略图背景颜色设置：</td>

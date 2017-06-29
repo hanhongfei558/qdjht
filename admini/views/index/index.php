@@ -5,8 +5,6 @@
       <li class="amli" onclick="dex(1)">最新新闻</li>
       <li class="amli" onclick="dex(2)">站点信息</li>
       <li class="amli" onclick="dex(3)">网站统计</li>
-      <li class="amli" onclick="dex(4)">关于稻壳</li>
-      <li class="doooc"><a target="_blank" href="http://www.doooc.com"><img src="images/doooc.jpg" /></a></li>
     </ul>
   </div>
   <div id="am_main">
@@ -15,9 +13,9 @@
         <li> <a href="./index.php?m=system&s=managechannel">设计导航菜单</a>
           <p>从这里开始建设网站，给网站设定栏目。</p>
         </li>
-        <li> <a href="./index.php?m=system&s=changeskin">模板管理</a>
+        <!-- <li> <a href="./index.php?m=system&s=changeskin">模板管理</a>
           <p>选择或修改您喜欢的网站模板样式。</p>
-        </li>
+        </li> -->
         <li> <a href="./index.php?m=system&s=options">站点设置</a>
           <p>设定网站基本信息和各项参数配制。</p>
         </li>
@@ -26,14 +24,17 @@
         <li> <a href="./index.php?m=system&s=userinfo">用户管理</a>
           <p>在这里创建您的用户账号以及分配用户权限。</p>
         </li>
-        <li> <a href="./index.php?m=system&s=managemodel">模块管理</a>
+        <li> <a href="./index.php?m=system&s=flashoptions">广告管理</a>
+          <p>控制首页焦点图中的轮换图片。</p>
+        </li>
+        <!-- <li> <a href="./index.php?m=system&s=managemodel">模块管理</a>
           <p>在这里管理和查看模块属性。</p>
         </li>
         <li> <a href="./index.php?m=system&s=bakup">数据库管理</a>
           <p>垃圾数据清理，数据库备份、恢复、管理。</p>
-        </li>
+        </li> -->
       </ul>
-      <ul>
+      <!-- <ul>
         <li> <a href="./index.php?m=system&s=flashoptions">广告管理</a>
           <p>控制首页焦点图中的轮换图片。</p>
         </li>
@@ -42,7 +43,7 @@
         </li>
         <li> <a href="./index.php?m=system&s=manageresource">Ftp资源管理</a>
           <p>利用在线Ftp功能帮助清理垃圾数据和文件。</p>
-        </li>
+        </li> -->
       </ul>
     </div>
     <div class="amcon amnew">

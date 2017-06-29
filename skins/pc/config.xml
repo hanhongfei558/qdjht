@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webSite>
+	<skins description="模板标识[注：标识一定要和模板目录名保持统一]" options="必填" maxSize="50">
+		pc
+	</skins>
+	<title description="模板主题[即：模板名称]" options="必填" maxSize="30">
+		金华通木头机械1.0模板
+	</title>
+	<description description="模板描述[即：模板简介]" options="必填" maxSize="100">
+	 	金华通木头机械网专用模板
+	</description>
+	<smallPic description="模版首页缩略图[大小：320*240px]" options="必填" size="320x240">
+	 	preview/index_s.jpg
+	</smallPic>
+	<author description="作者[即：制作人]" options="必填">
+	 	蓝鹰
+	</author>
+	<pubDate description="发布日期" options="必填">
+	 	2017-06-29
+	</pubDate>
+</webSite>

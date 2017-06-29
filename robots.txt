@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /admini/
+Disallow: /config/
+Disallow: /editor/
+Disallow: /inc/
+Disallow: /loader/
+Disallow: /setup/
+Disallow: /temp/
+Disallow: /xml/

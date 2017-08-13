@@ -40,7 +40,7 @@ div.jqZoomPup { z-index:10; visibility:hidden; position:absolute; top:0px; left:
 .endPageNum a:hover { color:#fff; background:#1f3a87; border:1px solid #1f3a87; float:left; text-decoration:underline; }
 .endPageNum .s3 { cursor:default; padding:2px 5px; margin:5px 4px 0 0; color:#ccc; background:#fff; display:inline-table; border:1px solid #ccc; float:left; }
 
-#con {	font-size: 12px; margin: 0px auto; width:98%;}
+#con {	font-size: 12px; margin: 0px auto; width:100%;}
 #tags {	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px 0px 0px 10px; width: 400px; padding-top: 0px; height: 23px}
 #tags li{	background: url(<?php echo $tag['path.skin'];?>res/images/tagleft.gif) no-repeat left bottom; float: left; margin-right: 1px; list-style-type: none; height: 23px}
 #tags li a{	padding-right: 10px; padding-left: 10px; background: url(<?php echo $tag['path.skin'];?>res/images/tagright.gif) no-repeat right bottom; float: left; padding-bottom: 0px; color: #999; line-height: 23px; padding-top: 0px; height: 23px; text-decoration: none}
@@ -52,7 +52,7 @@ div.jqZoomPup { z-index:10; visibility:hidden; position:absolute; top:0px; left:
 #tagContent div.selectTag0 {	display: block}
 #tagContent0{ display:block;}
 .details h2{ font-size:12px; font-weight:normal;}
-.xgprlist{ width:100%; float:left; padding-top:15px;}
+.xgprlist{ width:100%; padding-top:15px;}
 .xgprlist h3{ font-size:16px; font-weight:normal; padding:10px 0 0 15px; height:30px; background:#f0f0f0; margin-bottom:10px;}
 .xgprlist ul li{ width:146px; height:160px; float:left; margin:0 12px; display:inline;}
 .xgprlist ul li a{ display:block; width:145px; height:160px; z-index:10;}
@@ -168,12 +168,11 @@ function selectTag(showContent,selfObj){
       </tr>
     </table>
   </div>
-  <div class="xgprlist">
+  <div class="xgprlist clearfix">
   <h3>相关产品：</h3>
 	<ul>
     	<?php sys_about(4,0); ?>
     </ul>
-  </div>  
-  <p class="prodetails">点击数：<?php echo $data['counts']; ?> 录入时间：<?php echo $data['dtTime']; ?>【<a href="javascript:printing('productshow')">打印此页</a>】【<a href="javascript:history.back(1)">返回</a>】</p>
+  </div>
 </div>
 <?php unset($data);?>

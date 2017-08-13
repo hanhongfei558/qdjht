@@ -12,7 +12,7 @@
 ?>
 <style type="text/css">
 <!--
-#webmap{ width:420px; height:auto; padding:25px; margin:0 auto;}
+#webmap{ width:420px; height:auto; padding:25px 25px 40px 25px; margin:0 auto;}
 #webmap ul{ margin:0; padding:0; float:left;}
 #webmap ul li{ list-style:none; line-height:22px; color:#999;}
 #webmap ul li a{ text-decoration: none;letter-spacing: 1px;}
@@ -23,7 +23,7 @@
 .ys{ color:#999;}
 -->
 </style>
-<div id="webmap">
+<div id="webmap" class="clearfix">
 	<ul>	
 <?php
 if(!empty($tag['data.results']))

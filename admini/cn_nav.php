@@ -1,4 +1,5 @@
-<li><a href='./index.php?p=1'>企业简介</a></li>
+<li><a href='./index.php?p=1'>企业简介</a><ul><li><a href='./index.php?p=24'>首页公司介绍</a></li>
+</ul></li>
 <li><a href='./index.php?p=2'>新闻资讯</a><ul><li><a href='./index.php?p=8'>企业动态</a></li>
 <li><a href='./index.php?p=9'>行业新闻</a></li>
 </ul></li>

@@ -24,8 +24,10 @@ body{
 	margin:0px;		
 	background-color:#dbe1e3;	
 }
+.clearfix{display:block;zoom:1}
+.clearfix:after{content:"";display:block;height:0;overflow:hidden;clear:both;visibility:hidden}
 .wrapper{
-	margin-top:150px;
+	margin-top:88px;
 }
 
 /* links */
@@ -37,7 +39,7 @@ a:active {
   text-decoration:none;
 }
 a{
-	color:#b3b3b3;
+	color:#666666;
 	text-decoration: none;
 }
 a:hover{
@@ -644,15 +646,15 @@ a.popup-logout:active span {
 	margin:0px auto;	
 }
 #header-container{
-	width:960px;
-	height:485px;
+	width:1000px;
+	height:418px;
 	margin:0px auto;
 	background-image:url(../images/bg-glow-top.png);
 	background-repeat:no-repeat;
 	background-position:top center;
 }
 #header-container-inner{
-	width:960px;
+	width:1000px;
 	height:239px;
 	margin:0px auto;
 	background-image:url(../images/bg-glow-top.png);
@@ -693,12 +695,12 @@ a.popup-logout:active span {
 /* HEADER
 ------------------------------------------------------*/
 #header{
-	width:960px;
+	width:1000px;
 	height:96px;
 	float:left;
 }
 #logo{
-	width:126px;
+	width:255px;
 	margin:14px 30px 0px 0px;
 	position:relative;
 	z-index:100;
@@ -710,7 +712,7 @@ a.popup-logout:active span {
 	float:left;
 }
 #phone-number{
-	width:960px;
+	width:1000px;
 	margin:93px 0px 21px 0px;
 	text-align:right;
 	float:left;
@@ -721,7 +723,7 @@ a.popup-logout:active span {
 	text-shadow:0px 1px 0px #000000;
 }
 #pagetitle-wrapper{
-	width:960px;
+	width:1000px;
 	height:108px;
 	background-image:url(../images/bg-slideshow.png);
 	background-repeat:repeat;
@@ -736,7 +738,7 @@ a.popup-logout:active span {
 	text-shadow:0px 1px 0px #000000;
 }
 #breadcumb{
-	width:900px;
+	width:940px;
 	height:28px;
 	padding:4px 30px 0px 30px;
 	font-size:11px;
@@ -765,11 +767,11 @@ a.popup-logout:active span {
 	z-index:150;
 }
 #menu-container{
-	width:960px;
+	width:1000px;
 	margin:0px auto;
 }
 #mainmenu{
-	width:631px;
+	width:542px;
 	margin:18px 22px 0px 30px;
 	float:left;
 }
@@ -842,17 +844,12 @@ a.popup-logout:active span {
 /* SLIDESHOW
 ------------------------------------------------------*/
 #slideshow-wrapper{
-	width:960px;
-	height:376px;
-	background-image:url(../images/bg-slideshow.png);
-	background-repeat:repeat;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
+	width:1000px;
+	height:300px;
 	float:left;	
 }
 #slideshow-shadow{
-	width:1067px;
+	width:1107px;
 	height:108px;
 	margin-bottom:-30px;
 	position:relative;
@@ -871,7 +868,7 @@ a.popup-logout:active span {
 	float:left;
 }
 ul#slide-main{
-	width:960px;
+	width:1000px;
 	height:304px;
 	margin:0px;
 	padding:0px;
@@ -882,7 +879,7 @@ ul#slide-main li:nth-child(2) {display:none;}
 ul#slide-main li:nth-child(3) {display:none;}
 ul#slide-main li:nth-child(4) {display:none;}
 ul#slide-title{
-	width:960px;
+	width:1000px;
 	height:72px;
 	position:relative;
 	background-image:url(../images/slide-menu-bg.gif);
@@ -929,7 +926,7 @@ a.slidelink span{
 	font-size: 0.969em;
 }
 .slide-image{
-	width:960px;
+	width:1000px;
 	height:328px;
 	list-style-type:none;
 	position:absolute;
@@ -1138,7 +1135,7 @@ a.slidelink span{
 
 /* S3 Slider styling */
 #s3slide {
-    width: 960px; 
+    width: 1000px; 
     height: 377px;
     position: relative; 
 	overflow: hidden;
@@ -1177,7 +1174,7 @@ ul#s3slideContent li img {
 	margin-bottom:8px;
 }
 #s3slideContent {
-    width: 960px; 
+    width: 1000px; 
     position: absolute;
 	top: 0;
 	margin-left: 0;
@@ -1292,7 +1289,7 @@ ul#s3slideContent li img {
 /* CONTENT
 ------------------------------------------------------*/
 #conten{
-	width:960px;	 
+	width:1000px;	 
 	margin:0px auto;
 }
 .maincontent{
@@ -1313,7 +1310,7 @@ ul#s3slideContent li img {
 	
 }
 .maincontent-inner{
-	width:900px;
+	width:940px;
 	background-color:#ffffff;
 	-webkit-box-shadow:  0px 1px 2px  1px #b9bebf;
 	-moz-box-shadow: 0px 1px 2px 1px #b9bebf;
@@ -1324,15 +1321,12 @@ ul#s3slideContent li img {
 	-moz-border-radius-topright: 8px;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
-	margin-top:-29px;
-	padding:30px 30px 50px 30px;
-	float:left;
+	padding:30px 30px 30px 30px;
 }
 .homepage-wrapper{
-	width:900px;
+	width:940px;
 	background-color:#ffffff;
-  margin: 25px 30px 0 15px;
-  float: left;
+	margin: 25px 30px 0 15px;
 }
 #content-left {
 	width:620px;
@@ -1578,11 +1572,11 @@ ul#s3slideContent li img {
 
 /* Footer Styling */
 #bottom-wrapper{
-	width:960px;
+	width:1000px;
 	margin:0px auto;	
 }
 #bottom-content{
-	width:862px;
+	width:902px;
 	font-size:11px;
 	line-height:18px;
 	color:#a8a8a8;
@@ -1603,12 +1597,15 @@ ul#s3slideContent li img {
 	padding:35px 49px 38px 49px;
 	float:left;
 }
+#bottom-content li{
+	list-style:none;
+}
 #bottom-content h6{
 	color:#ffffff;
 	text-shadow:0px 1px 0px #000000;
 }
 .logofooter-column{
-	width:360px;
+	width:415px;
 	margin-right:15px;
 	padding:0px 0px 30px 4px;
 	float:left;
@@ -1657,7 +1654,7 @@ ul.list-bottom li a, ul.list-bottom li a:visited{
 	float:left;
 }
 #copyright-text{
-	width:960px;
+	width:1000px;
 	font-size:11px;
 	color:#939393;
 	margin:0px auto;
@@ -3719,8 +3716,28 @@ img.footerlogo {
 }
 #piclist{ width:98%; float:left;}
 #piclist ul li{ list-style:none; float:left; background:url(../res/images/probox_bg3.gif) 10px 6px no-repeat; width:195px; padding:20px 0 0 25px;}
-#piclist ul li img{ width:172px; height:129px; float:left;}
+#piclist ul li img{ width:172px; height:129px;}
 #piclist ul li h5{ font-size:12px; font-family:"微软雅黑"; margin:25px 0 10px 10px; display:inline; float:left; width:100%;}
 #piclist ul li a{ color:#666;}
 #piclist ul li a:hover{ color:#03c;}
+
+#productlist{ width:100%; padding-bottom:30px;}
+#productlist ul li{ list-style:none; float:left; width:220px; padding:20px 20px 0 0;}
+#productlist ul li img{ width:220px; height:165px;}
+#productlist ul li h5{ font-size:12px; font-family:"微软雅黑"; margin:25px 0 10px 10px; display:inline; float:left; width:100%;}
+#productlist ul li a{ color:#666;}
+#productlist ul li a:hover{ color:#03c;}
+
+.conten-box{}
+.conten-box .conten-box-left{ width: 460px; float:left; }
+.conten-box .conten-box-right{ width: 460px; float:right;}
+.conten-box .conten-box-right li{ line-height:24px;}
+
+#myFocus{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+#myFocus .__txt{ display:none;}
+
 #home h3{ font-weight:normal; border-bottom:1px dashed #ccc; padding-bottom:10px;}

@@ -2,7 +2,7 @@
 require_once(ABSPATH.'/inc/models/user.php');
 class user extends c_user{
 
-	function user_power_list_select($name,$select=null,$is_list=true,$style=0)
+	static function user_power_list_select($name,$select=null,$is_list=true,$style=0)
 	{
 		$temp_arr=array();
 		if($is_list)

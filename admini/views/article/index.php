@@ -2,7 +2,7 @@
 .col2-lbox { width:20%; }
 .col2-rbox { width:78.9%; }
 </style>
-<div class="c-box">
+<div class="c-box clearfix">
   <div class="col2-lbox">
     <?php require(ABSPATH.'/admini/views/article/nav.php') ?>
   </div>

@@ -1,5 +1,5 @@
 <style type="text/css">
-.c-box{ float:left; width:100%;}
+.c-box{ width:100%;}
 .col2-lbox { width:20%; }
 .col2-rbox { width:78.9%; }
 #allmap {width: 90%;height: 450px;overflow: hidden;margin:0;}
@@ -7,7 +7,7 @@
 </style>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
 
-<div class="c-box">
+<div class="c-box clearfix">
   <div class="col2-lbox">
     <table border='0'  cellspacing='0' cellpadding='0' style='width:100%;'  class='tableBorder' >
       <tr>

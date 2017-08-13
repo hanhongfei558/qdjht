@@ -5,6 +5,8 @@ a:hover { text-decoration: none; color: #4d77c3; }
 h1, h2, h3, p { margin:0; padding:0; font-size:12px; }
 img { border:none; }
 ul { margin:0; padding:0; list-style:none; }
+.clearfix{display:block;zoom:1}
+.clearfix:after{content:"";display:block;height:0;overflow:hidden;clear:both;visibility:hidden}
 #wrapper { width:100%; margin:0 auto; background:#fff; }
 #container { width:auto; border:0; margin:0; padding:0; clear:both; }
 #top { width:auto; height:48px; background:#313131 url(images/doclogo.png) 26px 5px no-repeat; border-bottom:2px solid #284780; position:relative; }

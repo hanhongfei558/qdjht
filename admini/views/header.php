@@ -62,18 +62,18 @@ function changelanguage(url){
 </script>
 <div class="header">
     <div class="hbtn">
-  		<h2>
-        <select onchange="changelanguage(this.value)" id="language">
+  		<h2 style="width: 80px;">
+        <!-- <select onchange="changelanguage(this.value)" id="language">
         <?php 		
-		$langList     = explode('@',QD_lang);
-		$langNameList = explode('@',QD_lang_name);
-		for($i=0;$i<count($langList)-1;$i++)
-		{
-			if(!empty($langList[$i])){?>
+        		$langList     = explode('@',QD_lang);
+        		$langNameList = explode('@',QD_lang_name);
+        		for($i=0;$i<count($langList)-1;$i++)
+        		{
+        			if(!empty($langList[$i])){?>
         <option value="<?=$langList[$i]?>" <?php echo $request['l']==$langList[$i]?'selected="selected"':'';?>><?=$langNameList[$i]?>网站</option>
         <?php }
-		}?> 
-        </select>
+        		}?> 
+        </select> -->
         </h2>
         <h2><a href="./../" class="preview" target="_blank">预览网站</a></h2>
         <?php if($_SESSION[TB_PREFIX.'admin_roleId']>8){ ?>

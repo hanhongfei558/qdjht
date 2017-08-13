@@ -11,8 +11,10 @@ $menuRoot=$db->get_results("SELECT * FROM ".TB_PREFIX."menu WHERE dtLanguage = '
 if(!empty($menuRoot))
 {   
    foreach($menuRoot as $menu){
-	  $menus[$menu['id']]=$menu; //重构菜单数组;
-	  $subs[$menu['parentId']][]=$menu['id'];//频道子类数组;
+   		if($menu['isHidden'] == 0){
+			$menus[$menu['id']]=$menu; //重构菜单数组;
+			$subs[$menu['parentId']][]=$menu['id'];//频道子类数组;
+		}
    }	
 }
 //自定义参数输出

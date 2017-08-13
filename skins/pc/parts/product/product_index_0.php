@@ -60,7 +60,7 @@
     <li> <a class="doc_colorbox" href="<?php echo $data['originalPic']?>" title="<?php echo $data['title']; ?>"><img src="<?php echo $data['smallPic']; ?>" width="160" height="120" alt="<?php echo $data['description'];?>"></a>
       <h3><a href="<?php echo sys_href($data['channelId'],'product',$data['id'])?>"><?php echo $data['title']; ?></a></h3>
       <p><?php echo $data['description']; ?></p>
-      <div class="doc_plug"> <a href="<?php echo sys_href($data['channelId'],'product',$data['id'])?>" class="doc_detailed">详细参数</a> <a href="<?php echo sys_href($data['channelId'],'product_intobasket',$data['id'])?>" class="doc_cart">加入购物车</a> </div>
+      <div class="doc_plug"> <a href="<?php echo sys_href($data['channelId'],'product',$data['id'])?>" class="doc_detailed">详细参数</a> <!-- <a href="<?php echo sys_href($data['channelId'],'product_intobasket',$data['id'])?>" class="doc_cart">加入购物车</a> --> </div>
     </li>
     <?php
         }

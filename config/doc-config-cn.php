@@ -50,8 +50,8 @@ define('articleWidth','140');
 define('articleHight','105');
 define('listWidth','140');
 define('listHight','105');
-define('productWidth','140');
-define('productHight','105');
+define('productWidth','220');
+define('productHight','165');
 define('pictureWidth','140');
 define('pictureHight','105');
 //列表模块页缩略图大小设置
@@ -59,10 +59,10 @@ define('pictureHight','105');
 define('moduleUserWidth','120');
 define('moduleUserHight','120');
 /*上传图片的大小设置*/
-define('productMiddlePicWidth','560');
-define('productMiddlePicHight','420');
-define('productSmallPicWidth','300');
-define('productSmallPicHight','225');
+define('productMiddlePicWidth','360');
+define('productMiddlePicHight','270');
+define('productSmallPicWidth','220');
+define('productSmallPicHight','165');
 define('pictureMiddlePicWidth','560');
 define('pictureMiddlePicHight','420');
 define('pictureSmallPicWidth','300');

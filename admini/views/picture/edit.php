@@ -52,7 +52,7 @@ function enlargePic(i)
                 </div>
                 <div class="enlarge" onmousemove="enlargePic(0)">&nbsp;</div>
               </div>
-              <span id="picTips">[可直接贴入网络图片，例：http://www.doccms.com/logo.jpg]</span></td>
+              <span id="picTips">[可直接贴入网络图片，例：http://www.qdjinhuatong.com/logo.jpg]</span></td>
           </tr>
           <tr>
             <td width="57"></td>

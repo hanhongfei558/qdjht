@@ -34,7 +34,7 @@ function createPic()
                   <input type="button" name="bt1" id="bt10" value="本地上传" class="bluebutton" onclick="document.getElementById('originalPic0').disabled=true;document.getElementById('uploadfile0').disabled=false;document.getElementById('uploadfile0').style.display='block';document.getElementById('originalPic0').style.display='none';document.getElementById('bt10').style.display='none';">
                 </div>
               </div>
-              <span id="picTips">[可直接贴入网络图片，例：http://www.doccms.com/logo.jpg]</span></td>
+              <span id="picTips">[可直接贴入网络图片，例：http://www.qdjinhuatong.com/logo.jpg]</span></td>
           </tr>
           <tr>
             <td width="57"></td>

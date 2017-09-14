@@ -13,10 +13,10 @@
 <style>
 .probox { padding-left:400px; position:relative; height:332px;}
 .pro_img { width:400px; display:inline-table; text-align:center; position:absolute; left:0; top:0; }
-.pro_txt { padding-right:30px; }
+.pro_txt { padding-right:20px; }
 .pro_txt p { height:30px; line-height:25px; }
-.pro_txt h2 { font-weight:bold; line-height:30px; }
-.pro_txt .details { line-height:20px; border:1px solid #ddd; padding:6px; background:#fff; height:137px; overflow:hidden;}
+.pro_txt h2 { font-weight:bold; line-height:30px; padding-bottom: 7px; font-size: 22px; }
+.pro_txt .details { line-height:20px; border:1px solid #ddd; padding:6px; background:#fff; height:135px; overflow:hidden; margin-top: 12px;}
 .main1box { margin-bottom:10px; }
 #main1 ul { display:none; }
 #main1 ul li { display:inline-block; _display:inline; position:relative; margin:0 auto; }
@@ -128,7 +128,7 @@ $data=$tag['data.row'];
   </div>
   <div class="pro_txt">
     <h2><?php echo $data['title']; ?></h2>
-    <?php sys_push($data['spec'],'<p>{name}:{value}</p>',0)?> 
+    <?php sys_push($data['spec'],'<p>{name}：{value}</p>',0)?> 
     <div class="details">产品简介: <?php echo $data['description']; ?></div>
   </div>
 </div>

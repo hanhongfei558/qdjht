@@ -26,7 +26,7 @@
             <td><input name="picture" id="picture" type="text" class="txt" size="60">
               <input name="uploadfile2" id="uploadfile2" type="file" size="50" maxlength= "50" style="display: none;">
               <input type="button" name="bt2" id="bt2" value="本地上传" class="bluebutton" onclick="document.getElementById('picture').disabled=true;document.getElementById('uploadfile2').disabled=false;document.getElementById('uploadfile2').style.display='block';document.getElementById('picture').style.display='none';document.getElementById('bt2').style.display='none';document.getElementById('picTips2').style.display='none';">
-              <span id="picTips2">[可直接贴入在线图片，例：http://www.doccms.com/logo.jpg]</span></td>
+              <span id="picTips2">[可直接贴入在线图片，例：http://www.qdjinhuatong.com/logo.jpg]</span></td>
           </tr>
           <tr>
             <td colspan="2"><a href="javascript:showHide('field_pane_on_2')"><img src="images/expand.gif" border="0"> 填写关键词&摘要 </a><a href="http://www.doccms.com/seo/#guanjianzi" target="_blank"><img src="./images/help.gif" alt="不知道怎么写关键字？" border="0" /></a>

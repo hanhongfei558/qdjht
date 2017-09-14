@@ -13,7 +13,7 @@
 <style>
 .probox { padding-left:400px; position:relative; height:332px;}
 .pro_img { width:400px; display:inline-table; text-align:center; position:absolute; left:0; top:0; }
-.pro_txt { padding-right:30px; }
+.pro_txt { padding-right:20px; }
 .pro_txt p { height:30px; line-height:25px; }
 .pro_txt h2 { font-weight:bold; line-height:30px; }
 .pro_txt .details { line-height:20px; border:1px solid #ddd; padding:6px; background:#fff; height:137px; overflow:hidden;}

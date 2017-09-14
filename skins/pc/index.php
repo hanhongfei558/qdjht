@@ -51,7 +51,7 @@
 					<div id="productlist" class="clearfix">
 						<h3>推荐产品</h3>
 						<ul>
-							<?php doc_product('3',8,0,15,0,0,true,false,'id',0)?>
+							<?php doc_product('3',8,0,16,0,0,true,false,'ordering',0)?>
 						</ul>
 					</div>
 					<div class="conten-box clearfix">

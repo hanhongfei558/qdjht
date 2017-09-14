@@ -26,7 +26,7 @@
             <td><input name="picture" id="picture" type="text" class="txt" value="<?php echo $video_item->picture ?>" size="60">
               <input name="uploadfile2" id="uploadfile2" type="file" size="50" maxlength= "50" style="display: none;">
               <input type="button" name="bt2" id="bt2" value="本地上传" class="bluebutton" onclick="document.getElementById('picture').disabled=true;document.getElementById('uploadfile2').disabled=false;document.getElementById('uploadfile2').style.display='block';document.getElementById('picture').style.display='none';document.getElementById('bt2').style.display='none';document.getElementById('picTips2').style.display='none';">
-              <span id="picTips2">[可直接贴入在线图片，例：http://www.doccms.com/logo.jpg]</span> <br />
+              <span id="picTips2">[可直接贴入在线图片，例：http://www.qdjinhuatong.com/logo.jpg]</span> <br />
               <span class="picture">当您重新从本地上传图片时，原来的图片将被删除。</span></td>
           </tr>
           <tr>

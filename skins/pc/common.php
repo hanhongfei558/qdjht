@@ -20,7 +20,7 @@
 				<div id="menu-wrapper">
 					<div id="menu-container">
 						<div id="logo">
-							<a href="http://www.doccms.com"><img src="<?php echo $tag['path.skin']; ?>images/LogoParteSuperior_V6.png" alt=""/></a>
+							<a href="/"><img src="<?php echo $tag['path.skin']; ?>images/LogoParteSuperior_V6.png" alt=""/></a>
 						</div>
 						<div id="mainmenu">
 							<ul id="menu" class="">
@@ -44,31 +44,41 @@
 							<div class="breadcrumbs"><?php nav_location('>>','首页') //当前位置调用的标签?></div>
 						</div>
 					</div><!--#pagetitle-wrapper-->
-					<div id="slideshow-shadow"></div>
 				</div><!--#header-container-inner-->
 				<!-- END OF HEADER -->
 				<!-- BEGIN OF CONTENT -->
 				<div id="conten">
-					<div class="maincontent-inner">
+					<div class="maincontent2-left clearfix">
+						<div class="left-fixed">
+							<h2 class="toptit">产品展厅</h2>
+							<div class="inner">
+								<ul class="left-menu">
+									<?php echo nav_sub(3,0)?>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="maincontent2-inner clearfix">
 						<?php sys_parts() //内容调用的标签?>
 					</div>
 					<!-- END OF CONTENT -->
 					<script>
 					jQuery(document).ready(function(){
-						/*iconos*/
-						var heights = [];
-						jQuery('.col-2').each(function(){
-							/*iconos image center*/
-							var h3w = jQuery('h3',this).height();
-							if(h3w > 26){
-								jQuery('h3',this).css('background-position','10px 10px')
+						var documentHeight = $(".maincontent2-inner").height()+50;
+						var marginTop = 0;
+						console.log('documentHeight:'+documentHeight);
+						$(window).scroll(function() {
+							var scrollTop = $(window).scrollTop();
+							console.log('scrollTop:'+scrollTop);
+							if(scrollTop > 219){
+								if(scrollTop <= documentHeight){
+									marginTop = scrollTop - 219;
+								}
+								$(".maincontent2-left").css({'margin-top':marginTop});
+							}else{
+								$(".maincontent2-left").css({'margin-top':0});
 							}
-							/*paragraph heigh stabilize*/
-							var hcol2 = jQuery(this).height();
-							heights.push(hcol2);
 						});
-						var maxHeight = Math.max.apply(Math, heights);
-						jQuery('.col-2').height(maxHeight);
 					});
 					</script>
 						

@@ -18,7 +18,7 @@ a{ text-decoration:none;}
 #articlebox h1{text-align:center; font-size:20px; font-family:'微软雅黑'; font-weight:normal; padding:10px 0;}
 #articlebox hr{height:5px;border:none;border-top:5px ridge green;}
 .details h2{ background:#F8F8FF; border: 1px solid #DDD; line-height: 25px; margin-bottom: 15px;  padding: 10px; font-size:14px; text-indent:28px;}
-.artcontent{clear: both; font-size: 14px; line-height: 23px; overflow: hidden; padding: 9px 0; width:99%; word-wrap: break-word;}
+.artcontent{clear: both; font-size: 14px; line-height: 23px; overflow: hidden; padding: 9px 0; width:100%; word-wrap: break-word;}
 #articeBottom { font-size: 14px; margin: 6px 0 10px; padding-top: 10px; text-align: right; width: 97%;}
 #articeBottom span { float: left;}
 #articeBottom span a { font-size: 12px;}
@@ -31,7 +31,7 @@ if(!empty($tag['data.results']))
 	foreach($tag['data.results'] as $k =>$data)
 	{
 	?>
-		<h1><?php echo $data['title']; ?></h1><hr />
+		<h1><?php echo $data['title']; ?></h1>
         <?php echo $data['description']; ?>
 		<div class="artcontent"><?php echo stripslashes($data['content']); ?></div>
 		<div id="articeBottom"><?php if(!empty($tag['pager.cn']))echo $tag['pager.cn']; ?></div>

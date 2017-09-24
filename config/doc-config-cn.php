@@ -76,7 +76,7 @@ define('linkersHight','30');
 //内容页列表模块单页显示默认条数
 define('listCount','12');
 define('pictureCount','12');
-define('productCount','6');
+define('productCount','8');
 define('videoCount','12');
 define('guestbookCount','10');
 define('commentCount','6');

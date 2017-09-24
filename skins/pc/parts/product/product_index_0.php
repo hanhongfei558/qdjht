@@ -25,10 +25,10 @@
 ?>res/images/product_06.png) no-repeat left center;
 }
 .doc_pro_list h3 { margin:0; width:100%; height:40px; line-height:40px; padding-top:5px; overflow:hidden; }
-.doc_pro_list h3 a { font-weight:bold; font-size:13px; color:#0CF; }
+.doc_pro_list h3 a { font-weight:bold; font-size:13px; color:#333; }
 .doc_pro_list p { width:100%; padding:0 0 8px 0; line-height:24px; height:70px; overflow:hidden; margin:0; }
-#articeBottom { font-size: 14px; margin: 6px 0 10px; padding-top: 10px; text-align: right; width: 97%; }
-#articeBottom li{ float:left; padding:0 2px; list-style:none}
+#articeBottom { font-size: 14px; margin: 6px 0 10px; padding-top: 10px; text-align: right; width: 100%; }
+#articeBottom li{ padding:0 2px; list-style:none; display: inline-block;}
 #articeBottom .pagebarCurrent{ font-weight:bold;}
 .details { height:90px; overflow:hidden; line-height:25px; }
 .details h2 { font-size:12px; font-weight:normal; }

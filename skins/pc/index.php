@@ -49,7 +49,7 @@
 			<div id="conten">
 				<div id="home" class="maincontent-inner">
 					<div id="productlist" class="clearfix">
-						<h3>推荐产品</h3>
+						<h3>推荐产品<a href="/<?php echo sys_menu_info('menuName',false,3)?>/" class="more">>>更多</a></h3>
 						<ul>
 							<?php doc_product('3',8,0,16,0,0,true,false,'ordering',0)?>
 						</ul>
@@ -60,8 +60,8 @@
 							<?php doc_article('24',1,0,0,0,0,true,true,'id',0)?>
 						</div>
 						<div class="conten-box-right">
-							<h3>新闻资讯</h3>
-							<?php doc_list('8|9',8,0,30,0,0,true,false,'id',0)?>
+							<h3>新闻资讯<a href="/<?php echo sys_menu_info('menuName',false,2)?>/" class="more">>>更多</a></h3>
+							<?php doc_list('2',8,0,30,0,0,true,false,'id',0)?>
 						</div>
 					</div>
 				</div>

@@ -11,17 +11,19 @@
 	*/
 ?>
 <style>
-.probox { padding-left:400px; position:relative; height:332px;}
-.pro_img { width:400px; display:inline-table; text-align:center; position:absolute; left:0; top:0; }
-.pro_txt { padding-right:20px; }
+.probox { padding-left:380px; position:relative; height:332px;}
+.pro_img { width:380px; display:inline-table; text-align:center; position:absolute; left:0; top:0; }
+.pro_txt { padding-right:0px; }
 .pro_txt p { height:30px; line-height:25px; }
-.pro_txt h2 { font-weight:bold; line-height:30px; padding-bottom: 7px; font-size: 22px; }
-.pro_txt .details { line-height:20px; border:1px solid #ddd; padding:6px; background:#fff; height:135px; overflow:hidden; margin-top: 12px;}
+.pro_txt h2 { font-weight:bold; line-height:30px; padding-bottom: 7px; font-size: 16px; }
+.pro_txt .details { line-height:20px; border:1px solid #ddd; padding:6px; background:#fff; height:140px; overflow:hidden; margin-top: 12px;}
 .main1box { margin-bottom:10px; }
+#main1{text-align: left;}
 #main1 ul { display:none; }
 #main1 ul li { display:inline-block; _display:inline; position:relative; margin:0 auto; }
 #main1 ul.block { display:block; }
 .menu1box { }
+.menu1box ul{ text-align: left; }
 #menu1 li { display:inline; cursor:pointer; }
 #menu1 li img { border:1px solid #ccc; width:50px; height:50px;}
 #menu1 li.hover img { border:1px solid #669900; }
@@ -47,8 +49,8 @@ div.jqZoomPup { z-index:10; visibility:hidden; position:absolute; top:0px; left:
 #tags li.emptyTag {	background: none transparent scroll repeat 0% 0%; width: 4px}
 #tags li.selectTag,#tags li.selectTag0 {	background-position: left top; margin-bottom: -2px; position: relative; height: 25px}
 #tags li.selectTag a,#tags li.selectTag0 a{	background-position: right top; color: #000; line-height: 25px; height: 25px}
-#tagContent {border-right: #aecbd4 1px solid; padding-right: 1px; border-top: #aecbd4 1px solid; padding-left: 1px; padding-bottom: 1px; border-left: #aecbd4 1px solid; padding-top: 1px; border-bottom: #aecbd4 1px solid; background-color: #fff}
-.tagContent {padding:10px; display: none; background: url(<?php echo $tag['path.skin'];?>res/images/bg.gif) repeat-x; color: #474747;}
+#tagContent {border-right: #aecbd4 1px solid; padding-right: 1px; border-top: #aecbd4 1px solid; padding-left: 1px; padding-bottom: 1px; border-left: #aecbd4 1px solid; padding-top: 1px; border-bottom: #aecbd4 1px solid; background-color: #fff;color: #474747;}
+.tagContent img{ max-width: 740px; }
 #tagContent div.selectTag0 {	display: block}
 #tagContent0{ display:block;}
 .details h2{ font-size:12px; font-weight:normal;}
@@ -129,21 +131,15 @@ $data=$tag['data.row'];
   <div class="pro_txt">
     <h2><?php echo $data['title']; ?></h2>
     <?php sys_push($data['spec'],'<p>{name}：{value}</p>',0)?> 
-    <div class="details">产品简介: <?php echo $data['description']; ?></div>
+    <p>产品简介: <?php echo $data['description']; ?></p>
   </div>
 </div>
  <div class="clear" style="height:10px;"></div>
-<div style="margin:20px;"> 
+<div style="margin:20px 0;"> 
   <p class="prodetails">
   <div id="con">
-    <ul id="tags">
-    <?php sys_push('','<li class="selectTag{i}"><a onClick="selectTag(\'tagContent{i}\',this)"  href="javascript:void(0)">{name}</a> </li>',1)?>
-    
-    </ul>
-    <div id="tagContent">
     <?php sys_push($data['content'],'<div class="tagContent" id="tagContent{i}">{value}</div>',1)?>
-    </div>
-</div>
+  </div>
 <SCRIPT type=text/javascript>
 function selectTag(showContent,selfObj){
 	// 操作标签
@@ -171,7 +167,7 @@ function selectTag(showContent,selfObj){
   <div class="xgprlist clearfix">
   <h3>相关产品：</h3>
 	<ul>
-    	<?php sys_about(4,0); ?>
+    	<?php sys_about(4,0,12); ?>
     </ul>
   </div>
 </div>

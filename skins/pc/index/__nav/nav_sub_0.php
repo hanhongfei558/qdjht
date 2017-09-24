@@ -20,7 +20,7 @@ $target = $data['isTarget']?$target:'';
 ?>
 
 <li> 
-  <a href="<?php echo $url?>" <?php echo $target?>><?php echo $data['title'];?></a>
+  <a href="<?php echo $url?>" <?php echo $target?>>><?php echo $data['title'];?></a>
 
  <?php 
   /* 

@@ -1,9 +1,9 @@
 <?php
 //数据库配置字段
-define('DB_HOSTNAME','bdm288492140.my3w.com');
-define('DB_USER','bdm288492140');
-define('DB_PASSWORD','jhtmysql20170531');
-define('DB_DBNAME','bdm288492140_db');
+define('DB_HOSTNAME','localhost');
+define('DB_USER','root');
+define('DB_PASSWORD','mysql');
+define('DB_DBNAME','jinhuatong');
 define('TB_PREFIX','cn_');
 //模板配置字段
 define('WEBOPEN',true);

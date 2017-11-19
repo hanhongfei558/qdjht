@@ -10,7 +10,7 @@
 	<!--.center-->
 	<p style="text-align:center; margin:20px 0 0 0">青岛金华通机械有限公司&nbsp;&nbsp;&nbsp;&nbsp;Copyright © <?php echo date('Y')?> 
 		<a title="青岛金华通机械有限公司" href="/">qdjinhuatong.com</a>
-		&nbsp;&nbsp;&nbsp;鲁ICP备17013361号-1
+		&nbsp;&nbsp;&nbsp;鲁ICP备17049542号-1
 		<br>
 		<spam></spam>
 	</p>

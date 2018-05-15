@@ -9,3 +9,4 @@
 <li><a href='./index.php?p=23'>网站地图</a></li>
 </ul></li>
 <li><a href='./index.php?p=24'>首页公司介绍</a></li>
+<li><a href='./index.php?p=25'>车间实拍</a></li>
